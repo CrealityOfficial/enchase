@@ -55,6 +55,7 @@ namespace enchase
 		{
 			m_current.reset(new trimesh::TriMesh());
 			*m_current = *m_source;
+			m_current->normals = m_source->normals;
 		}
 
 		mapper->map(m_current.get(), index);
