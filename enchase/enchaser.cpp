@@ -30,6 +30,8 @@ namespace enchase
 
 		trimesh::TriMesh* dest = new trimesh::TriMesh();
 		*dest = *m_source;
+		dest->normals = m_source->normals;
+
 		mapper->map(dest, index);
 
 		return dest;
