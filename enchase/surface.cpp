@@ -2,6 +2,7 @@
 #include "blur.h"
 #include "heightconvert.h"
 #include "edgeprocessor.h"
+#include <cstdio>
 
 namespace enchase
 {

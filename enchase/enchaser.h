@@ -1,6 +1,7 @@
 #ifndef ENCHASE_ENCHASER_1600262114250_H
 #define ENCHASE_ENCHASER_1600262114250_H
 #include "trimesh2/TriMesh.h"
+#include <memory>
 
 namespace enchase
 {
